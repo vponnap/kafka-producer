@@ -1,0 +1,12 @@
+server:
+  port: 9001
+kafka:
+  bootstrap:
+    servers:   localhost:9092
+    cluster:   wn0-devdik.waqq0sav5qee5crkuqcifcnjtf.dx.internal.cloudapp.net:9092,
+               wn1-devdik.waqq0sav5qee5crkuqcifcnjtf.dx.internal.cloudapp.net:9092,
+               wn2-devdik.waqq0sav5qee5crkuqcifcnjtf.dx.internal.cloudapp.net:9092
+  producer:
+     #topic: demand-impact-dev.events.topic
+      topic: events,test,demand-impact-dev.events.topic
+
